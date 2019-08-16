@@ -17,6 +17,7 @@ public class Bio {
 		driver.get("https://www.google.co.in");
 		System.out.println("Hello");
 		System.out.println(driver.getTitle());
+		System.out.println("title");
 		driver.close();
 	}
 }
